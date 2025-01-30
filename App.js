@@ -1,9 +1,29 @@
 import React from "react";
-//import ReactDOM from "react-dom";
-import ReactDOM from "react-dom/client"; 
+import ReactDOM from "react-dom/client";
 
+const App = () => {
+  return (
+    <div>
+      <header>
+        <h1>Hello, React!</h1>
+        <p>This is a React app using JSX.</p>
+      </header>
+      
+      <section>
+        <h2>Features</h2>
+        <ul>
+          <li>Easy to learn</li>
+          <li>Component-based</li>
+          <li>Fast and efficient</li>
+        </ul>
+      </section>
 
-const heading = React.createElement("h1", {id : "heading", xyz : "abc"}, "Hello from my React !!!");
+      <footer>
+        <p>© 2025 My React App</p>
+      </footer>
+    </div>
+  );
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading);
-
+root.render(<App />);
