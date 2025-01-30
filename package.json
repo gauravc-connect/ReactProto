@@ -1,0 +1,14 @@
+{
+  "name": "reactproto",
+  "version": "1.0.0",
+  "description": "My React Playground ",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Gaurav",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3"
+  }
+}
